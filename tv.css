@@ -1,0 +1,22 @@
+table {
+	border: 1px solid #aaa;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	max-width: 50%;
+	background-color: #e6eeee;
+	margin: 5px;
+	padding: 3px;
+}
+th:hover {
+	cursor: pointer;
+}
+tr:nth-child(even) {
+	background-color: #f0f0f6;
+}
+tr:nth-child(odd) {
+	background-color: #fff;
+}
+th {
+	background-color: #e6eeee;
+}
